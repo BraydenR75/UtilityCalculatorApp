@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/txtTitleTip"
+        android:textColor="#0a0"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/txtEditInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/inTotal"
+        android:textColor="#0a0"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_tip"
+        android:layout_height="524dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/txt_edit_bill_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginTop="25dp"
+            android:ems="5"
+            android:gravity="center"
+            android:hint="@string/tipText"
+            android:inputType="textPersonName"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="@string/ten" />
+
+        <RadioButton
+            android:id="@+id/fifteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="@string/fifteen" />
+
+        <RadioButton
+            android:id="@+id/twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/twenty" />
+
+        <Button
+            android:id="@+id/btn_caltip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="@string/tipcal" />
+
+        <TextView
+            android:id="@+id/txt_tip_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="@string/tipTotal"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btn_backhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/returnHome" />
+    </RadioGroup>
+</GridLayout>

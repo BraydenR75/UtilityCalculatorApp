@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Utility Calculator App</string>
+    <string name="tip_calc_btn">Tip Calculator</string>
+    <string name="gas_calc_btn">Gas Mileage Calculator</string>
+    <string name="tax_calc_btn">Tax Calculator</string>
+
+    <string name="txtTitle">Welcome to the calculator homepage, please select your calculator</string>
+    <string name="txtTitleTip">Welcome to the tip calculator</string>
+    <string name="inTotal">What is the bill total:</string>
+    <string name="tipcal">Calculate the tip</string>
+    <string name="tipTotal">Enter all the needed info to find out the total tip</string>
+    <string name="returnHome">Back to home</string>
+
+
+    <string name="tankHoldText">How much gas does the vehicle hold</string>
+    <string name="milesTraveledText">How far did you travel in miles</string>
+    <string name="gascal">Calculate the MPG</string>
+    <string name="mpgTotal">Enter all the needed info to find out your car\'s MPG</string>
+
+
+
+    <string name="ten">10%</string>
+    <string name="fifteen">15%</string>
+    <string name="twenty">20%</string>
+
+    <string name="tipText">15.62</string>
+    <string name="traveledMilesHint">80</string>
+    <string name="gasHoldHint">18</string>
+
+    <string name="taxBillHint">18</string>
+    <string name="taxHint">18</string>
+    <string name="txtTitleTax">Welcome to the tax calculator</string>
+    <string name="taxcal">Calculate the tax</string>
+    <string name="billTotalTxt">How much is the total bill?</string>
+    <string name="taxRateHint">.09</string>
+    <string name="totalBillHint">24.56</string>
+    <string name="taxRate">What is the current tax rate</string>
+    <string name="rateTax">What is your rating of the new tax calculator?</string>
+
+
+</resources>
