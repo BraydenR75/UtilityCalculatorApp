@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <EditText
-        android:id="@+id/txtEdit"
+        android:id="@+id/edittxt_taxbill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.293" />
 
     <EditText
-        android:id="@+id/txtEdit2"
+        android:id="@+id/edittxt_taxrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.381" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_taxCalc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/taxcal"
@@ -119,6 +119,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.792" />
+
+    <TextView
+        android:id="@+id/txt_calcText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_taxCalc"
+        android:text="@string/taxTotal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
 
     <RatingBar
         android:id="@+id/ratingBar"

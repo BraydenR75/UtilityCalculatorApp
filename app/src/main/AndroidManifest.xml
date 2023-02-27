@@ -12,6 +12,15 @@
         android:theme="@style/Theme.UtilityCalculatorApp"
         tools:targetApi="31">
         <activity
+            android:name=".tax"
+            android:exported="false" />
+        <activity
+            android:name=".mpg"
+            android:exported="false" />
+        <activity
+            android:name=".tip"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

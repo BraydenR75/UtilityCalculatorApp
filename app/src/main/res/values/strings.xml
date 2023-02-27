@@ -36,6 +36,7 @@
     <string name="totalBillHint">24.56</string>
     <string name="taxRate">What is the current tax rate</string>
     <string name="rateTax">What is your rating of the new tax calculator?</string>
+    <string name="taxTotal">Enter all the needed info to find out the tax total</string>
 
 
 </resources>

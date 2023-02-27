@@ -19,21 +19,23 @@
 
     <Button
         android:id="@+id/tip_btn"
-        android:layout_width="match_parent"
+        android:layout_width="409dp"
+
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tip_calc_btn" />
 
     <Button
         android:id="@+id/mpg_btn"
-        android:layout_width="match_parent"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/gas_calc_btn" />
 
     <Button
         android:id="@+id/tax_btn"
-        android:layout_width="match_parent"
+        android:layout_width="409dp"
+
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tax_calc_btn" />
